@@ -4,6 +4,8 @@ Pages created :
 - team/staff
 - gossip
 - contact
+
+
 other parts created : 
 - user
 - city
