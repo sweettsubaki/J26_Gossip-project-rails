@@ -1,0 +1,9 @@
+<p>Prénom : <%= Gossip.find(@id).user.first_name %></p>
+
+<p>Nom : <%= Gossip.find(@id).user.last_name %></p>
+
+<p>Ville : <%= Gossip.find(@id).user.city.city_name %></p>
+
+<p>Age: <%= Gossip.find(@id).user.age %></p>
+  
+<p>Description: <%= Gossip.find(@id).user.description %>.</p>

@@ -1,0 +1,5 @@
+<p>Auteur du gossip : <%= Gossip.find(@id).user.first_name %></p>
+
+<p>Contenu du : <%= Gossip.find(@id).content %></p>
+
+<button><a href="/user/<%= Gossip.find(@id).user_id %>" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Lien du profil</a></button>
