@@ -1,3 +1,3 @@
 class Tag < ApplicationRecord
-  has_many :gossips, through: :tag_join_gossip
+  has_many :gossips, through: :tags_with_gossip
 end
